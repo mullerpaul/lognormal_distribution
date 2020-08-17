@@ -3,26 +3,35 @@ After listening to a Taleb podcast where he talked about lognormal and other "fa
 
 
 
-# new repo
+create a new repo
+```
 git init lognormal_dist
 cd lognormal_dist/
+```
 
-# needed to install pip so I could then install pandas, notebook, and then matplotlib
+I needed to install pip so I could then install pandas, notebook, and then matplotlib
+```
 pip --version
 sudo apt update
 sudo apt install python3-pip
 pip3 --version
 pip3 install pandas
+```
 
-# installing notebook into python environment and jupyter executable in OS.  I don't really understand this yet.
+Install notebook into python environment and jupyter executable in OS.  I don't really understand this yet.
+```
 pip3 install notebook
 sudo apt install jupyter-core
 jupyter notebook
+```
 
-# now add python script location to path
+Now add python script location to path
+```
 export PATH="$HOME/.local/bin:$PATH" >> .bashrc
 source .bashrc
+```
 
-# now inistall matplotlib for histogram graphs
+finally inistall matplotlib for histogram graphs
+```
 pip3 install matplotlib
-
+```
